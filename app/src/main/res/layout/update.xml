@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Please enter details to Update:"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Row ID"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/teamName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team Name"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/playerName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player Name"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/gamesPlayed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. of games played"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/goalsFor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Goals Scored"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/goalsAgainst"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Goals Conceded"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/goalDifference"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Goal Difference"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/points"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Points"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/button_update"
+        />
+</LinearLayout>
